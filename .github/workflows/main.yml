@@ -36,11 +36,9 @@ jobs:
             ${{ runner.OS }}-
 
       # Runs a set of commands using the runners shell
-      - name: Install Dependencies
-        run: yarn
           
-      - name: Build
-        run: yarn build
+      - name: install awscli
+        run: apt install awscli
         
       - name: Deploy
         env: 
