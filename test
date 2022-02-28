@@ -1,98 +1,97 @@
-
-select 'KICSM.ONLINEMVENTRYS' as tabname, count(*) as cnt from KICSM.ONLINEMVENTRYS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.STOCKLEVELENTRIES' as tabname, count(*) as cnt from KICSM.STOCKLEVELENTRIES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.PRICEROWS' as tabname, count(*) as cnt from KICSM.PRICEROWS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.STOCKLEVELS' as tabname, count(*) as cnt from KICSM.STOCKLEVELS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.SALEMANAGES' as tabname, count(*) as cnt from KICSM.SALEMANAGES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.ORDERENTRIES' as tabname, count(*) as cnt from KICSM.ORDERENTRIES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.CONSIGNMENTENTRIES' as tabname, count(*) as cnt from KICSM.CONSIGNMENTENTRIES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.MEDIAS' as tabname, count(*) as cnt from KICSM.MEDIAS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.PAYMNTTRNSCTENTRIES' as tabname, count(*) as cnt from KICSM.PAYMNTTRNSCTENTRIES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.PAYMENTTRANSACTIONS' as tabname, count(*) as cnt from KICSM.PAYMENTTRANSACTIONS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.CONSIGNMENTS' as tabname, count(*) as cnt from KICSM.CONSIGNMENTS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.ORDERS' as tabname, count(*) as cnt from KICSM.ORDERS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.SAPRECEIPTINTERFACE' as tabname, count(*) as cnt from KICSM.SAPRECEIPTINTERFACE where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.POINTDETAILS' as tabname, count(*) as cnt from KICSM.POINTDETAILS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.ESTOREORDERENTRYCONSUMED' as tabname, count(*) as cnt from KICSM.ESTOREORDERENTRYCONSUMED where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.KOPCMSEVENTAPPLYS' as tabname, count(*) as cnt from KICSM.KOPCMSEVENTAPPLYS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.PGRELS' as tabname, count(*) as cnt from KICSM.PGRELS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.USERS' as tabname, count(*) as cnt from KICSM.USERS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.VOUCHERRESULT' as tabname, count(*) as cnt from KICSM.VOUCHERRESULT where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.WISHLIST2ENTRY' as tabname, count(*) as cnt from KICSM.WISHLIST2ENTRY where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.KOPCMSEVENTITEMS' as tabname, count(*) as cnt from KICSM.KOPCMSEVENTITEMS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.WMSORDERMASTERS' as tabname, count(*) as cnt from KICSM.WMSORDERMASTERS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.PRODUCTS' as tabname, count(*) as cnt from KICSM.PRODUCTS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.PROD2KEYWORDREL' as tabname, count(*) as cnt from KICSM.PROD2KEYWORDREL where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.RETURNREQUEST' as tabname, count(*) as cnt from KICSM.RETURNREQUEST where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.DNE2OCE' as tabname, count(*) as cnt from KICSM.DNE2OCE where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.SITEPRODUCTINFORMATIONS' as tabname, count(*) as cnt from KICSM.SITEPRODUCTINFORMATIONS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.DELIVERYNOENTRIES' as tabname, count(*) as cnt from KICSM.DELIVERYNOENTRIES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.ORDERDELIVERYCOSTS' as tabname, count(*) as cnt from KICSM.ORDERDELIVERYCOSTS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.PRODUCTSIZESPECS' as tabname, count(*) as cnt from KICSM.PRODUCTSIZESPECS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.CARTS' as tabname, count(*) as cnt from KICSM.CARTS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.MOVINGSTOCKENTRIES' as tabname, count(*) as cnt from KICSM.MOVINGSTOCKENTRIES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.CAT2PRODREL' as tabname, count(*) as cnt from KICSM.CAT2PRODREL where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.PROMOTIONRESULT' as tabname, count(*) as cnt from KICSM.PROMOTIONRESULT where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.REALPOINTGIVES' as tabname, count(*) as cnt from KICSM.REALPOINTGIVES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.CUSTOMERGRADEHISTS' as tabname, count(*) as cnt from KICSM.CUSTOMERGRADEHISTS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.CARTENTRIES' as tabname, count(*) as cnt from KICSM.CARTENTRIES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.CUSTOMERSOCIALACCOUNTS' as tabname, count(*) as cnt from KICSM.CUSTOMERSOCIALACCOUNTS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.CBSTOCKSYNCS' as tabname, count(*) as cnt from KICSM.CBSTOCKSYNCS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.ONLINEDVENTRIES' as tabname, count(*) as cnt from KICSM.ONLINEDVENTRIES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.DAILYMEMBERS' as tabname, count(*) as cnt from KICSM.DAILYMEMBERS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.KOKPAYCUSTOMERS' as tabname, count(*) as cnt from KICSM.KOKPAYCUSTOMERS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.DELIVERYHISTORYENTRIES' as tabname, count(*) as cnt from KICSM.DELIVERYHISTORYENTRIES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.KEYWORDS' as tabname, count(*) as cnt from KICSM.KEYWORDS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.KPIPRICES' as tabname, count(*) as cnt from KICSM.KPIPRICES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.CUSTOMERGRADES' as tabname, count(*) as cnt from KICSM.CUSTOMERGRADES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.CVS2OCE' as tabname, count(*) as cnt from KICSM.CVS2OCE where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.LOGIKPIDELIVERYRATES' as tabname, count(*) as cnt from KICSM.LOGIKPIDELIVERYRATES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.PROMOTION' as tabname, count(*) as cnt from KICSM.PROMOTION where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.COMMONFILES' as tabname, count(*) as cnt from KICSM.COMMONFILES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.CVSDELIVERYNOENTRIES' as tabname, count(*) as cnt from KICSM.CVSDELIVERYNOENTRIES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.IFCBUNITS' as tabname, count(*) as cnt from KICSM.IFCBUNITS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.BALANCES' as tabname, count(*) as cnt from KICSM.BALANCES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.CATEGORIES' as tabname, count(*) as cnt from KICSM.CATEGORIES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.CAT2CATREL' as tabname, count(*) as cnt from KICSM.CAT2CATREL where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.DISCOUNTS' as tabname, count(*) as cnt from KICSM.DISCOUNTS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.GCPOINTOFSERVICEINFOS' as tabname, count(*) as cnt from KICSM.GCPOINTOFSERVICEINFOS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.POINTOFSERVICE' as tabname, count(*) as cnt from KICSM.POINTOFSERVICE where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.BASESTORE2POSREL' as tabname, count(*) as cnt from KICSM.BASESTORE2POSREL where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.ENUMERATIONVALUES' as tabname, count(*) as cnt from KICSM.ENUMERATIONVALUES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.IFSAPPERFORMANCEDIVS' as tabname, count(*) as cnt from KICSM.IFSAPPERFORMANCEDIVS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.SUPPLIERBRANDS' as tabname, count(*) as cnt from KICSM.SUPPLIERBRANDS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.COMPOSEDTYPES' as tabname, count(*) as cnt from KICSM.COMPOSEDTYPES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.GCBRANDSDEALINFOS' as tabname, count(*) as cnt from KICSM.GCBRANDSDEALINFOS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.HOLIDAYS' as tabname, count(*) as cnt from KICSM.HOLIDAYS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.SUPPLIER' as tabname, count(*) as cnt from KICSM.SUPPLIER where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.CODEEXTS' as tabname, count(*) as cnt from KICSM.CODEEXTS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.PRODUCTITEMS' as tabname, count(*) as cnt from KICSM.PRODUCTITEMS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.USERGROUPS' as tabname, count(*) as cnt from KICSM.USERGROUPS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.PRODUCTDIAGRAMS' as tabname, count(*) as cnt from KICSM.PRODUCTDIAGRAMS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.COUNTRIES' as tabname, count(*) as cnt from KICSM.COUNTRIES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.KPIMEMBERS' as tabname, count(*) as cnt from KICSM.KPIMEMBERS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.BASESTORE' as tabname, count(*) as cnt from KICSM.BASESTORE where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.CMSSITE' as tabname, count(*) as cnt from KICSM.CMSSITE where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.DELIVERYVENDORS' as tabname, count(*) as cnt from KICSM.DELIVERYVENDORS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.PRODUCTITEMGROUPS' as tabname, count(*) as cnt from KICSM.PRODUCTITEMGROUPS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.CREDITCARDCOMPANYS' as tabname, count(*) as cnt from KICSM.CREDITCARDCOMPANYS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.WAREHOUSES' as tabname, count(*) as cnt from KICSM.WAREHOUSES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.REGIONS' as tabname, count(*) as cnt from KICSM.REGIONS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.GRADEBENEFITS' as tabname, count(*) as cnt from KICSM.GRADEBENEFITS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.MALLGRADES' as tabname, count(*) as cnt from KICSM.MALLGRADES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.CURRENCIES' as tabname, count(*) as cnt from KICSM.CURRENCIES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.LANGUAGES' as tabname, count(*) as cnt from KICSM.LANGUAGES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.VENDORS' as tabname, count(*) as cnt from KICSM.VENDORS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.ALLIANCECUSTOMERS' as tabname, count(*) as cnt from KICSM.ALLIANCECUSTOMERS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.ORDERCONSIGNMENTENTRIES' as tabname, count(*) as cnt from KICSM.ORDERCONSIGNMENTENTRIES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.POSCOMMISSIONENTRIES' as tabname, count(*) as cnt from KICSM.POSCOMMISSIONENTRIES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.ORDERINFOS' as tabname, count(*) as cnt from KICSM.ORDERINFOS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.EMPLOYEES' as tabname, count(*) as cnt from KICSM.EMPLOYEES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.RETURNENTRY' as tabname, count(*) as cnt from KICSM.RETURNENTRY where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.WISHLIST2' as tabname, count(*) as cnt from KICSM.WISHLIST2 where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.CUSTOMERREVIEWS' as tabname, count(*) as cnt from KICSM.CUSTOMERREVIEWS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.CUSTOMERFROMS' as tabname, count(*) as cnt from KICSM.CUSTOMERFROMS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.PAYMENTINFOS' as tabname, count(*) as cnt from KICSM.PAYMENTINFOS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.AFFILIATEDCOMPANIES' as tabname, count(*) as cnt from KICSM.AFFILIATEDCOMPANIES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.WEBDATAAUTHS' as tabname, count(*) as cnt from KICSM.WEBDATAAUTHS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
-select 'KICSM.ADDRESSES' as tabname, count(*) as cnt from KICSM.ADDRESSES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD')
+select 'KICSM.ONLINEMVENTRYS' as tabname, count(*) as cnt from KICSM.ONLINEMVENTRYS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.STOCKLEVELENTRIES' as tabname, count(*) as cnt from KICSM.STOCKLEVELENTRIES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.PRICEROWS' as tabname, count(*) as cnt from KICSM.PRICEROWS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.STOCKLEVELS' as tabname, count(*) as cnt from KICSM.STOCKLEVELS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.SALEMANAGES' as tabname, count(*) as cnt from KICSM.SALEMANAGES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.ORDERENTRIES' as tabname, count(*) as cnt from KICSM.ORDERENTRIES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.CONSIGNMENTENTRIES' as tabname, count(*) as cnt from KICSM.CONSIGNMENTENTRIES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.MEDIAS' as tabname, count(*) as cnt from KICSM.MEDIAS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.PAYMNTTRNSCTENTRIES' as tabname, count(*) as cnt from KICSM.PAYMNTTRNSCTENTRIES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.PAYMENTTRANSACTIONS' as tabname, count(*) as cnt from KICSM.PAYMENTTRANSACTIONS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.CONSIGNMENTS' as tabname, count(*) as cnt from KICSM.CONSIGNMENTS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.ORDERS' as tabname, count(*) as cnt from KICSM.ORDERS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.SAPRECEIPTINTERFACE' as tabname, count(*) as cnt from KICSM.SAPRECEIPTINTERFACE where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.POINTDETAILS' as tabname, count(*) as cnt from KICSM.POINTDETAILS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.ESTOREORDERENTRYCONSUMED' as tabname, count(*) as cnt from KICSM.ESTOREORDERENTRYCONSUMED where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.KOPCMSEVENTAPPLYS' as tabname, count(*) as cnt from KICSM.KOPCMSEVENTAPPLYS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.PGRELS' as tabname, count(*) as cnt from KICSM.PGRELS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.USERS' as tabname, count(*) as cnt from KICSM.USERS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.VOUCHERRESULT' as tabname, count(*) as cnt from KICSM.VOUCHERRESULT where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.WISHLIST2ENTRY' as tabname, count(*) as cnt from KICSM.WISHLIST2ENTRY where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.KOPCMSEVENTITEMS' as tabname, count(*) as cnt from KICSM.KOPCMSEVENTITEMS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.WMSORDERMASTERS' as tabname, count(*) as cnt from KICSM.WMSORDERMASTERS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.PRODUCTS' as tabname, count(*) as cnt from KICSM.PRODUCTS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.PROD2KEYWORDREL' as tabname, count(*) as cnt from KICSM.PROD2KEYWORDREL where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.RETURNREQUEST' as tabname, count(*) as cnt from KICSM.RETURNREQUEST where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.DNE2OCE' as tabname, count(*) as cnt from KICSM.DNE2OCE where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.SITEPRODUCTINFORMATIONS' as tabname, count(*) as cnt from KICSM.SITEPRODUCTINFORMATIONS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.DELIVERYNOENTRIES' as tabname, count(*) as cnt from KICSM.DELIVERYNOENTRIES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.ORDERDELIVERYCOSTS' as tabname, count(*) as cnt from KICSM.ORDERDELIVERYCOSTS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.PRODUCTSIZESPECS' as tabname, count(*) as cnt from KICSM.PRODUCTSIZESPECS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.CARTS' as tabname, count(*) as cnt from KICSM.CARTS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.MOVINGSTOCKENTRIES' as tabname, count(*) as cnt from KICSM.MOVINGSTOCKENTRIES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.CAT2PRODREL' as tabname, count(*) as cnt from KICSM.CAT2PRODREL where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.PROMOTIONRESULT' as tabname, count(*) as cnt from KICSM.PROMOTIONRESULT where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.REALPOINTGIVES' as tabname, count(*) as cnt from KICSM.REALPOINTGIVES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.CUSTOMERGRADEHISTS' as tabname, count(*) as cnt from KICSM.CUSTOMERGRADEHISTS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.CARTENTRIES' as tabname, count(*) as cnt from KICSM.CARTENTRIES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.CUSTOMERSOCIALACCOUNTS' as tabname, count(*) as cnt from KICSM.CUSTOMERSOCIALACCOUNTS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.CBSTOCKSYNCS' as tabname, count(*) as cnt from KICSM.CBSTOCKSYNCS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.ONLINEDVENTRIES' as tabname, count(*) as cnt from KICSM.ONLINEDVENTRIES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.DAILYMEMBERS' as tabname, count(*) as cnt from KICSM.DAILYMEMBERS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.KOKPAYCUSTOMERS' as tabname, count(*) as cnt from KICSM.KOKPAYCUSTOMERS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.DELIVERYHISTORYENTRIES' as tabname, count(*) as cnt from KICSM.DELIVERYHISTORYENTRIES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.KEYWORDS' as tabname, count(*) as cnt from KICSM.KEYWORDS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.KPIPRICES' as tabname, count(*) as cnt from KICSM.KPIPRICES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.CUSTOMERGRADES' as tabname, count(*) as cnt from KICSM.CUSTOMERGRADES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.CVS2OCE' as tabname, count(*) as cnt from KICSM.CVS2OCE where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.LOGIKPIDELIVERYRATES' as tabname, count(*) as cnt from KICSM.LOGIKPIDELIVERYRATES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.PROMOTION' as tabname, count(*) as cnt from KICSM.PROMOTION where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.COMMONFILES' as tabname, count(*) as cnt from KICSM.COMMONFILES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.CVSDELIVERYNOENTRIES' as tabname, count(*) as cnt from KICSM.CVSDELIVERYNOENTRIES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.IFCBUNITS' as tabname, count(*) as cnt from KICSM.IFCBUNITS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.BALANCES' as tabname, count(*) as cnt from KICSM.BALANCES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.CATEGORIES' as tabname, count(*) as cnt from KICSM.CATEGORIES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.CAT2CATREL' as tabname, count(*) as cnt from KICSM.CAT2CATREL where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.DISCOUNTS' as tabname, count(*) as cnt from KICSM.DISCOUNTS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.GCPOINTOFSERVICEINFOS' as tabname, count(*) as cnt from KICSM.GCPOINTOFSERVICEINFOS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.POINTOFSERVICE' as tabname, count(*) as cnt from KICSM.POINTOFSERVICE where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.BASESTORE2POSREL' as tabname, count(*) as cnt from KICSM.BASESTORE2POSREL where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.ENUMERATIONVALUES' as tabname, count(*) as cnt from KICSM.ENUMERATIONVALUES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.IFSAPPERFORMANCEDIVS' as tabname, count(*) as cnt from KICSM.IFSAPPERFORMANCEDIVS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.SUPPLIERBRANDS' as tabname, count(*) as cnt from KICSM.SUPPLIERBRANDS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.COMPOSEDTYPES' as tabname, count(*) as cnt from KICSM.COMPOSEDTYPES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.GCBRANDSDEALINFOS' as tabname, count(*) as cnt from KICSM.GCBRANDSDEALINFOS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.HOLIDAYS' as tabname, count(*) as cnt from KICSM.HOLIDAYS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.SUPPLIER' as tabname, count(*) as cnt from KICSM.SUPPLIER where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.CODEEXTS' as tabname, count(*) as cnt from KICSM.CODEEXTS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.PRODUCTITEMS' as tabname, count(*) as cnt from KICSM.PRODUCTITEMS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.USERGROUPS' as tabname, count(*) as cnt from KICSM.USERGROUPS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.PRODUCTDIAGRAMS' as tabname, count(*) as cnt from KICSM.PRODUCTDIAGRAMS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.COUNTRIES' as tabname, count(*) as cnt from KICSM.COUNTRIES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.KPIMEMBERS' as tabname, count(*) as cnt from KICSM.KPIMEMBERS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.BASESTORE' as tabname, count(*) as cnt from KICSM.BASESTORE where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.CMSSITE' as tabname, count(*) as cnt from KICSM.CMSSITE where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.DELIVERYVENDORS' as tabname, count(*) as cnt from KICSM.DELIVERYVENDORS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.PRODUCTITEMGROUPS' as tabname, count(*) as cnt from KICSM.PRODUCTITEMGROUPS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.CREDITCARDCOMPANYS' as tabname, count(*) as cnt from KICSM.CREDITCARDCOMPANYS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.WAREHOUSES' as tabname, count(*) as cnt from KICSM.WAREHOUSES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.REGIONS' as tabname, count(*) as cnt from KICSM.REGIONS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.GRADEBENEFITS' as tabname, count(*) as cnt from KICSM.GRADEBENEFITS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.MALLGRADES' as tabname, count(*) as cnt from KICSM.MALLGRADES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.CURRENCIES' as tabname, count(*) as cnt from KICSM.CURRENCIES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.LANGUAGES' as tabname, count(*) as cnt from KICSM.LANGUAGES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.VENDORS' as tabname, count(*) as cnt from KICSM.VENDORS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.ALLIANCECUSTOMERS' as tabname, count(*) as cnt from KICSM.ALLIANCECUSTOMERS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.ORDERCONSIGNMENTENTRIES' as tabname, count(*) as cnt from KICSM.ORDERCONSIGNMENTENTRIES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.POSCOMMISSIONENTRIES' as tabname, count(*) as cnt from KICSM.POSCOMMISSIONENTRIES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.ORDERINFOS' as tabname, count(*) as cnt from KICSM.ORDERINFOS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.EMPLOYEES' as tabname, count(*) as cnt from KICSM.EMPLOYEES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.RETURNENTRY' as tabname, count(*) as cnt from KICSM.RETURNENTRY where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.WISHLIST2' as tabname, count(*) as cnt from KICSM.WISHLIST2 where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.CUSTOMERREVIEWS' as tabname, count(*) as cnt from KICSM.CUSTOMERREVIEWS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.CUSTOMERFROMS' as tabname, count(*) as cnt from KICSM.CUSTOMERFROMS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.PAYMENTINFOS' as tabname, count(*) as cnt from KICSM.PAYMENTINFOS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.AFFILIATEDCOMPANIES' as tabname, count(*) as cnt from KICSM.AFFILIATEDCOMPANIES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.WEBDATAAUTHS' as tabname, count(*) as cnt from KICSM.WEBDATAAUTHS where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
+select 'KICSM.ADDRESSES' as tabname, count(*) as cnt from KICSM.ADDRESSES where CREATEDTS < TO_DATE('20220201' , 'YYYYMMDD') union all
